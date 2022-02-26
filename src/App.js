@@ -4,7 +4,7 @@ import Home from './components/pages/Home';
 import './App.css';
 
 function App() {
-  console.log("app running in production");
+  console.log("app running");
   return (
     <>
     <Router basename={process.env.PUBLIC_URL} >
