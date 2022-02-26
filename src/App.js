@@ -4,7 +4,7 @@ import Home from './components/pages/Home';
 import './App.css';
 
 function App() {
-  console.log("app starting");
+  console.log("app startings");
   return (
     <>
     <Router>
