@@ -7,7 +7,7 @@ function App() {
   console.log("app starting");
   return (
     <>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
        </Routes>
