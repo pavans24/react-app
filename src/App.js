@@ -4,10 +4,10 @@ import Home from './components/pages/Home';
 import './App.css';
 
 function App() {
-  console.log("app startings");
+  console.log("app starting");
   return (
     <>
-    <Router  >
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
        </Routes>
