@@ -1,0 +1,50 @@
+.nav-bar
+{
+    display: flex;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-bar-sticky
+{
+    position: sticky;
+    top:0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+.nav-item
+{
+    width:50%;
+    display: inline-block;
+}
+.logo
+{
+    width: 30%;
+}
+.contact-btn
+{
+    background-color: #ffff;
+    color: white;
+    padding: 12px 15px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid #e75462;
+    color: black;
+    outline: none;
+    border-radius: 10px;
+
+}
+.align-right
+{
+    text-align: right;
+}
+.align-vertical
+{
+    display: inline-flex;
+    vertical-align: middle;
+    text-align: right;
+    align-items: center;
+    align-content: flex-end;
+    height: 100%;
+}
