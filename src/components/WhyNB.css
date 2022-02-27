@@ -1,0 +1,32 @@
+.nb-table
+{
+    width: 54%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+.table-head
+{
+    background-color: #fd3753;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+}
+.table-data
+{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+td,th {
+    border: 1px solid #dddd;
+}
+.table-rows
+{
+    height: 50px;
+    background-color: #ffff;
+}
+th{
+    color: white !important;
+}

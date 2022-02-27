@@ -3,7 +3,7 @@ import './Services.css';
 export default function Services()
 {
 return (
-    <div className="services">
+    <div className="services section-space">
        <h2 className="headings">
 			Comprehensive Property Management Services in India
  		</h2>
