@@ -1,0 +1,54 @@
+.how-nb-tile
+{
+    width: 21%;
+    display: inline-block;
+    background-color: white;
+    max-width: 100%;
+    border: 1px solid rgba(221, 221, 221, 0.867);
+    vertical-align: top;
+    cursor: pointer;
+   padding: 15px 0;
+}
+.how-nb-tiles-step
+{
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 600;
+    color: darkblue;
+    font-size: 26px;
+}
+.how-nb-tiles-icon
+{
+    background-image: url(https://www.nobroker.in/prophub/wp-content/uploads/2020/04/Group-4647.png);
+    background-size: contain;
+    width: 55px;
+    height: 80px;
+    object-fit: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.how-nb-tile-head
+{
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    height: 26px;
+}
+.how-nb-tiles-desc
+{
+    line-height: 1.4;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+    margin-top: 10px;
+}
+.how-nb-tiles-div
+{
+    display: flex;
+    justify-content: space-between;
+}
