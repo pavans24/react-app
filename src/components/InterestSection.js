@@ -2,7 +2,7 @@ import React from "react";
 import './InterestSection.css';
 export default function InterestSection(){
     return(
-        <div className="interest-section">
+        <div className="interest-section" id="interest">
             <div className="interest-head">
                 <h1>Interests</h1>
             </div>

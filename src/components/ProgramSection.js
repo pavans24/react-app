@@ -2,7 +2,7 @@ import React from 'react';
 import './ProgramSection.css';
 export default function ProgramSection(){
     return(
-        <div className="program-section">
+        <div className="program-section" id='programming'>
             <div className="program-head">
                 <h1>Programming</h1>
             </div>

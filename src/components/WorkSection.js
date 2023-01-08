@@ -2,7 +2,7 @@ import React from 'react';
 import './WorkSection.css';
 export default function WorkSection(){
     return(
-        <div className="work-section">
+        <div className="work-section" id="work">
             <div className='work-head'>
             <h1>Work</h1>
             </div>
