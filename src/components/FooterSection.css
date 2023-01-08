@@ -1,0 +1,32 @@
+.footer-section{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    width: 12px;
+}
+.footer-text-overline{
+    text-decoration: overline;
+}
+.footer-desc{
+    text-align: center;
+    color: white;
+    width: 40%;
+}
+.footer-line-width{
+    width: 30%;
+}
+.footer-line{
+    width: 100%;
+    height: 0px;
+    border: 0.5px solid white;
+}
+@media only screen and (max-width:620px) {
+    .footer-desc{
+        width: 70% !important;
+    }
+    .footer-line-width{
+        width: 15% !important;
+    }
+}

@@ -1,0 +1,40 @@
+.work-section{
+    padding: 0;
+}
+.work-inner-section{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.work-tiles{
+    width: 28%;
+    padding: 40px 15px;
+    box-shadow: -1px 7px 18px -6px #12b17e;
+    border-radius: 20px;
+    background: #f1f9f5;
+}
+.work-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+.work-head > h1{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width:620px){
+    .work-main{
+        padding: 30px 0 !important;
+    }
+    .work-inner-section{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+    .work-tiles{
+        width: 80% !important;
+        margin-bottom: 25px;
+        padding: 30px 15px !important;
+    }
+}

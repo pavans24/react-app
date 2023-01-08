@@ -4,6 +4,7 @@ text-align: center;
 background-image: linear-gradient( 
     90deg,#6ba59e,#9579d9);
     height: 300px;
+    display: none;
 }
 .hero-main
 {
@@ -13,4 +14,57 @@ background-image: linear-gradient(
    margin-right: auto;
    align-items: center;
 
+}
+.top-header
+{
+    background-image: linear-gradient(to right, #2961FE, #5D0DE1);
+    display: none;
+}
+.call-icon
+{
+    background-image: url(https://d35ppnqksufxmo.cloudfront.net/frontend_website/fb288e54f8f9bcd6f987196eff3ef431.svg);
+}
+.profile{
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    background: antiquewhite;
+   
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 90px 0;
+}
+.hero-part-1{
+    width: 50%;
+}
+.hero-part-2{
+    width: 50%;
+    text-align: left;
+}
+.hero-part-2-inner{
+    width: 50%;
+    line-height: 1.4;
+}
+@media only screen and (max-width:620px){
+    .hero-section{
+        flex-wrap: wrap;
+        padding: 50px 0 !important;
+    }
+    .hero-part-1, .hero-part-2 {
+    width: 100% !important;
+    text-align: center !important;
+}
+.hero-part-2-inner {
+    width: 100% !important;
+}
+.profile{
+    width: 200px !important;
+    height: 200px !important;
+}
+.hero-part-2-inner > p{
+    padding: 0 10px;
+}
 }
