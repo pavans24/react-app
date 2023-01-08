@@ -42,8 +42,9 @@ if(check2){
     //menu opening condition
     setCheck(true);
     setCheck2(true);
+    document.body.style.overflow = "hidden";
 }
-document.body.style.overflow = "hidden";
+
     };
     function Menu(){
         return(
