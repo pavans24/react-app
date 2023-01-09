@@ -32,6 +32,12 @@
 .nav-bar-part3{
     display: none;
 }
+.linkedin-icon{
+    width: 25px;
+}
+.linkedin-icon-span{
+    vertical-align: middle;
+}
 @media only screen and (max-width:620px) {
     .nav-bar-part3{
         display: block !important;

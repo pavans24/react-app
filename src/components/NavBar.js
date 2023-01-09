@@ -7,27 +7,40 @@ export default function NavBar(){
     
     const [check, setCheck] = useState(false);
     const [check2, setCheck2] = useState(false);
+
     const scrollIt = (pos) => {
+
         var eleId = 'home';
-        if(pos == 0){
+        if(pos === 0){
             eleId = 'home';
         }
-        else if(pos == 1){
+        else if(pos === 1){
             eleId = 'work';
         }
-        else if(pos == 2){
+        else if(pos === 2){
             eleId = 'interest';
         }
-        else if(pos == 3){
+        else if(pos === 3){
             eleId = 'programming';
         }
-        const element = document.getElementById(eleId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setCheck2(false);
-      closeMenu();
-    }
+
+        if(pos === 4){
+            window.open("https://www.linkedin.com/in/pavan-kumar-sadhu-47693818b/","_self");
+            setCheck2(false);
+            closeMenu();
+        }else {
+            const element = document.getElementById(eleId);
+            if (element) {
+             element.scrollIntoView({ behavior: 'smooth' });
+             setCheck2(false);
+             closeMenu();
+             }
+        }
+
+        
+
   };
+
     const closeMenu = () => {
 setCheck(false);
 document.body.style.overflow = "unset";
@@ -54,6 +67,7 @@ if(check2){
                         <div onClick={() => scrollIt(1)} >Work</div>
                         <div onClick={() => scrollIt(2)}>Programming</div>
                         <div onClick={() => scrollIt(3)}>Interests</div>
+                        <div onClick={() => scrollIt(4)}><img src={process.env.PUBLIC_URL+"/linkedin-icon.png"} className="linkedin-icon" /></div>
                     </div>
             </div>
         );
@@ -69,6 +83,7 @@ if(check2){
                         <span onClick={() => scrollIt(1)}>Work</span>
                         <span onClick={() => scrollIt(2)}>Programming</span>
                         <span onClick={() => scrollIt(3)}>Interests</span>
+                        <span onClick={() => scrollIt(4)} className="linkedin-icon-span" ><img src={process.env.PUBLIC_URL+"/linkedin-icon.png"} className="linkedin-icon" /></span>
                     </div>
             </div>
             <div className="nav-bar-part3">
