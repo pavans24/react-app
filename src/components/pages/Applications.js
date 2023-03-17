@@ -44,7 +44,7 @@ export default function Applications()
 		<a href={process.env.PUBLIC_URL+"/HH Adding (1).pdf"}>HH Adding</a><br/>
 		<a href={process.env.PUBLIC_URL+"/HH Death.pdf"}>HH Death</a><br/>
 		<a href={process.env.PUBLIC_URL+"/HH Merge.pdf"}>HH Merge</a><br/>
-		<a href={process.env.PUBLIC_URL+"/Household_Mapping_విభజన_కొరకు_దరఖాస్తు_ఫారం.pdf"}>HH MAPPING SPLITTING APPLICATION</a><br/>
+		<a href={process.env.PUBLIC_URL+"/Household_Mapping_splitting form.pdf"}>HH MAPPING SPLITTING APPLICATION</a><br/>
 		<a href={process.env.PUBLIC_URL+"/HOUSEHOLD MAPPING SPLIT PS FIELD VERIFICATION FORM.pdf"}>HOUSEHOLD MAPPING SPLIT PS FIELD VERIFICATION</a><br/>
 		<a href={process.env.PUBLIC_URL+"/HOUSEHOLD MAPPING SPLIT WEA VERIFICATION FORM.pdf"}>HOUSEHOLD MAPPING SPLIT WEA VERIFICATION</a><br/>
 		<a href={process.env.PUBLIC_URL+"/Member Migration on Marriage Grounds Application Form.pdf"}>Member Migration on Marriage Grounds Application Form</a><br/>
